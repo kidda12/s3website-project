@@ -1,0 +1,694 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.color{
+    background-color: rgb(218, 0, 125);
+}
+
+.navbar-toggler{
+    border: none;
+    outline: none;
+}
+.navbar-toggler:focus{
+    border: none;
+    outline: none;
+}
+.navbar2 ul li{
+    list-style: none;
+    /* padding: 10px 3vw 10px 0.5vw; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1.5vw ;
+    padding-right: 1.5vw ;
+    font-size: 1.1vw;
+}
+#navs{
+    margin-left: 3.5vw;
+    margin-right: 3.7vw;
+}
+.navbar2{
+    background-color: #94004f;
+    color: white;
+   
+}
+.navbar-brand{
+    width: 10vw;
+}
+.navbar-brands{
+    width: 13vw;
+}
+h3 a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+.navbar2 ul li:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.carousel-inner{
+    border-radius: 5px;
+}
+/* .bank2 img{
+    width: 100%;
+    height: 11.3vw;
+} */
+.bank{
+    border-radius: 5px;
+    }
+    .kong{
+        background-color: white;
+        height: 60px;
+        border-radius: 5px;
+    }
+    .kong img{
+        margin-top: 15px;
+    }
+.today{
+  background-image:  url(BG-icons.webp);
+  background-color: #94004f;
+  border-radius: 5px 5px 0px 0px;
+}
+.all{
+    background-color:#fff;
+    border-radius: 3px;
+    height: 125px;
+  width: 29vw;
+  margin-right: 1vw;
+  box-shadow: 0 0 0.5rem rgb(0 0 0 / 5%);
+}
+/* .todayb{
+    overflow-x: scroll;
+} */
+.containes{
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 3.5vw;
+    margin-right: 3.7vw;
+}
+.imgac{
+    width: 14.5vw;
+    margin-left: 0.52vw;
+    height: auto;
+}
+.imgac1{
+    width: 14.5vw;
+    margin-left: 0.52vw;
+    height: auto;
+}
+.imgac2{
+    width: 14.5vw;
+    margin-left: 0.52vw;
+    height: auto;
+}
+.imgac3{
+    width: 14.5vw;
+    margin-left: 0.52vw;
+    height: auto;
+}
+.imgac4{
+    width: 14.5vw;
+    margin-left: 0.52vw;
+    height: auto;
+}
+.imgac5{
+    width: 14.5vw;
+    height: auto;
+    margin-left: 0.52vw;
+    
+}
+.accesories{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 3.5vw;
+    margin-right: 3.7vw;
+    
+}
+.pay{
+    margin-left: 3.5rem;
+    margin-right: 3.7rem;
+}
+.rows{
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.intel{
+    margin-left: 3.5vw;
+    margin-right: 3.7vw;
+    
+}
+.rad{
+    border-radius: 5px;
+    }
+    .hea{
+        margin-left: 3.5vw;
+        margin-right: 3.7vw;
+        background-color: white;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .toda{
+        background-color: white;
+        border-radius: 5px 5px 0px 0px;
+    }
+    .car{
+        height: 220px;
+        width: 15vw;
+        box-shadow: 0 0 0.5rem rgb(0 0 0 / 5%);
+        border-radius: 5px;
+        margin: 5px;
+        background-color: white;
+    }
+    .cardimg-top{
+        width: 250px;
+        border-radius: 5px;
+    }
+    .todayb{
+        background-color: #fff;
+    }
+    
+    .rad2{
+        background-color: #f2f2f2;
+        margin-left: 3.5vw;
+        margin-right: 3.7vw;
+        border-radius: 5px;
+    }
+    .col6 img{
+        border-radius: 5px;
+    }
+    .col7 img{
+        border-radius: 5px;
+    }
+    .rowa{
+        justify-content: center;
+    }
+    .browse{
+        margin-left: 3.5vw;
+        margin-right: 3.7vw;
+        
+        border-radius: 5px 5px;
+    }
+    .build{
+         width: 360px;
+        height: 370px;
+        background-color: white;
+        margin: 7px;
+    }
+    .build img{
+        width: 230px;
+    }
+    .flex2{
+        overflow-x: scroll;
+    }
+    .alp{
+        margin-left: 3.5vw;
+        margin-right: 3.7vw;
+        overflow-x: scroll;
+    }
+    .alp img{
+        width: 22vw;
+        border-radius: 5px;
+        margin-right: 18px;
+        
+    }
+    .build2{
+        background-color: white;
+        margin: 5px;
+        border-radius: 5px;
+
+    }
+    .build2 img{
+        width: 100%;
+    }
+    .company{
+
+        margin-left: 3.5vw;
+        margin-right: 3.7vw;
+    }
+
+    
+    .new{
+        background-color: white;
+       
+    } 
+    .new img{
+        width: 15.2vw;
+        
+        height: 10vw;
+        
+    }
+    .news .new{
+        border: 1px solid silver;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        
+    }
+    .contact{
+        margin-left: 3.5vw;
+        margin-right: 3.7vw;
+    
+    }
+    .contact .count input{
+height: 45px;
+width: 240px;
+text-indent: 9px;
+border-radius: 5px 0px 0px 5px;
+border: none;
+outline: none;
+    }
+
+    .contact .count button{
+border: none;
+outline: none;
+height: 45px;
+width: 100px;
+margin-left: 0;
+border-radius: 0px 5px 5px 0px;
+background-color: rgb(218, 0, 125);
+    }
+    .count{
+        margin-right: 2vw;
+     display: flex;
+    }
+    .about{
+        margin-left: 3.5vw;
+        margin-right: 3.7vw;
+        background-color: #ffffff;
+        border-radius: 5px;
+    }
+  
+    .icon{
+        margin-top: 10px;
+     border-radius: 15px;
+        width: 30px;
+        height: 28px; 
+        background-color: white;
+        color: black;
+        margin-right: 10px;
+    }
+    .count h6{
+        font-size: 14px;
+    }
+    .count p{
+        font-size: 14px;
+    }
+    .last{
+        
+        margin-left: 3.5vw;
+        margin-right: 3.7vw;
+    }
+    .lastc .last .last1 h6 p small{
+        font-size: 12px;
+        
+    }
+    .last1{
+        font-size: 12px;  
+    }
+    .last2{
+        font-size: 12px;
+    }
+    .last3{
+        font-size: 12px;
+    }
+     .apple span , .android span{
+        font-size: 35px;
+    }
+    .last .icons span{
+        font-size: 25px;
+    }
+    .apple{
+        margin-right: 40px;
+    }
+    .icona{
+        margin-top: 10px;
+        border-radius: 25px;
+           width: 40px;
+           height: 39px; 
+           background-color: white;
+           color: black;
+           margin-right: 10px;
+    }
+    .lastc{
+  background-color: #1c1d1f;   
+  
+    }
+    .last{
+        display: flex;
+    }
+    .accordion .accordion-item{
+        background-color: #1c1d1f;
+        color: white;
+    }
+    .accordion .accordion-item .accordion-header button{
+        background-color: #1c1d1f;
+        color: white;
+    }
+    .accordion .accordion-item .accordion-header button::after{
+        background-color: #1c1d1f;
+        color: white;
+    }
+#headingOn{
+    background-color: #1c1d1f;
+}
+.accordion-button.collapsed {
+    background: blue
+  }
+  
+  .accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+ 
+  }
+/* .todayb h3{
+    font-size: 2vw;
+}
+.todayb p{
+    font-size: 1vw;
+} */
+/* .div4{
+    width: 29vw;
+} */
+.last1{
+    margin-right: 4vw;
+}
+.elct{
+    display: none;
+}
+.navbar3 ul li{
+    display: none;
+}
+.navbar3 ul li{
+    list-style: none ;
+    margin-right: 4vw;
+}
+.navbar3 span {
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cart{
+    list-style: none;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.search input{
+width: 90%;
+text-indent: 8px;
+height: 42px;
+border-radius: 3px 0px 0px 3px;
+border: none;
+background-color: #f2f2f2;
+font-size: 13px;
+
+}
+
+
+.search button{
+width: 8%;
+border-left: none;
+height: 42px;
+border-radius: 0px 3px 3px 0px;
+color: rgb(218, 0, 125);
+background-color: #fba100;
+border: none;
+}
+.search{
+    margin-right: 3vw;
+    margin-left: 3vw;
+ display: flex;
+ display: none;
+}
+.searchs input{
+width: 22vw;
+text-indent: 8px;
+height: 38px;
+border-radius: 3px 0px 0px 3px;
+border: none;
+background-color: #f2f2f2;
+font-size: 13px;
+
+}
+
+
+.searchs button{
+width: 3vw;
+border-left: none;
+height: 38px;
+border-radius: 0px 3px 3px 0px;
+color: rgb(218, 0, 125);
+background-color: #fba100;
+border: none;
+}
+.searchs{
+    margin-right: 3vw;
+    margin-left: 3vw;
+  
+}
+.navbar-brands{
+    display: none;
+}
+.searchs{
+    display: flex;
+}
+.contact{
+    display: flex;
+}
+.all img{
+    width: 8vw;
+}
+.all .sam{
+    width: 5.5vw;
+}
+.navbar3 small{
+    font-size: 13px;
+}
+@media screen and (max-width:780px) {
+    .all img{
+        width: 15vw;
+    }
+    .all .sam{
+        width: 9vw;
+    }
+    .accesories{
+        overflow-x: scroll;
+        
+    }
+    .imgac{
+        width: 150px;
+        margin-left: 1vw;
+        height: auto;
+    }
+    .imgac1{
+        width: 150px;
+        margin-left: 1vw;
+        height: auto;
+    }
+    .imgac2{
+        width: 150px;
+        margin-left: 1vw;
+        height: auto;
+    }
+    .imgac3{
+        width: 150px;
+        margin-left: 1vw;
+        height: auto;
+    }
+    .imgac4{
+        width: 150px;
+        margin-left: 1vw;
+        height: auto;
+    }
+    .imgac5{
+        width: 150px;
+        height: auto;
+        margin-left: 1vw;
+           }
+           .todayb{
+display: flex;
+overflow-x: scroll;
+
+           }
+           .all{
+            background-color: #fff;
+            border-radius: 3px;
+            height: 225px;
+          width: 200px;
+          margin-right: 1vw;
+        }
+        .build2{
+            width: 900px;
+        }
+        .alp img{
+            width: 55vw;
+            margin-right: 0;
+    
+        }
+        .none{
+            display: none;
+        }
+        .elct{
+            margin-left: 3.5vw;
+            margin-right: 3.7vw;
+            display: block;
+        }
+        .elct .width{
+            width: 50vw;
+            background-color: #ffffff;
+            border: 1px solid #f2f2f2;
+        }
+        .elct .width h6{
+            margin-left: 10px;
+            font-size: 3vw;
+        }
+        .elct img{
+            width: 62px;
+        }
+        .containes{
+            background-color: #ffffff;
+        }
+        .navbar-brand{
+            width: 13vw;
+        }
+        .navbar2{
+            display: none;
+        }
+        .navbar3 ul li{
+display: block;
+margin-right: 3vw;
+margin-left: 3vw;
+
+        }
+        .contact{
+            display: block;
+        }
+        .count{
+            display: block;
+        }
+        .whites{
+            background-color: white;
+            
+        }
+          .shadow {
+            background-color: white;
+            box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 5%);
+            padding-bottom: 13px;
+          
+        }
+        .navbar-brand{
+            display: none;
+        }
+        .navbar-brands{
+            display: block;
+        }
+        .search{
+            display: flex;
+        }
+        .searchs{
+            display: none;
+        }
+        
+}
+@media screen and (max-width:420px) {
+    .all img{
+        width: 27vw;
+    }
+    .all .sam{
+        width: 18vw;
+    }
+.navbar3 ul li{
+    margin-right: 4vw;
+    margin-left: 0;
+    
+}
+.icona{
+    font-size: 24px;
+}
+}
+@media screen and (max-width:830px) {
+.contact{
+    display: block;
+}
+.count{
+    display: block;
+}
+.last{
+    display: block;
+}
+.icona{
+    margin-right: 12vw;
+   
+    margin: auto;
+}
+
+}
+@media screen and (max-width:575px) {
+.col7 img{
+    margin-top: 5px;
+}
+.apple span,.android span{
+    font-size: 28px;
+}
+.search button{
+    background-color: #f2f2f2;
+    color: #aca7a7;
+}
+}
+@media screen and (max-width:1100px) {
+    .build{
+        width: 20vw;
+       height: 29vw;
+        /* width: 330px;
+       height: 340px; */
+       background-color: white;
+       margin: 7px;
+   }
+   .build img{
+       width: 17vw;
+   }
+   
+}
+@media screen and (max-width:960px) {
+    .build{
+     
+         width: 330px;
+       height: 280px; 
+       background-color: white;
+       margin: 7px;
+   }
+   .build img{
+       width: 17vw;
+       
+   }
+}
+@media screen and (max-width:690px) {
+    .build{
+     
+         width: 530px;
+       height: 270px; 
+       background-color: white;
+       margin: 7px;
+   }
+   .build img{
+       width: 150px;
+   }
+   .build2 h5{
+    font-size: 17px;
+   }
+   .build2 p{
+    font-size: 14px;
+   }
+   .build2 small{
+    font-size: 13px;
+   }
+  
+   .alp img{
+    width: 48vw;
+   }
+}
