@@ -62,18 +62,18 @@ The project structure is as follows:
 
 5. After successfully applying the configuration and uploading your website files, the S3 bucket will be hosting your website. You can find the endpoint in the Terraform outputs.
 
-6. Open your website by visiting http://your-bucket-name.s3-website.us-west-2.amazonaws.
-   OR
-   7.Access your website via the S3 bucket URL or set up a custom domain through Route 53.
+6. Open your website by visiting: http://your-bucket-name.s3-website.us-west-2.amazonaws.
+     OR
+7.Access your website via the S3 bucket URL or set up a custom domain through Route 53.
 
 ## Tear Down
 
-To tear down and delete all the AWS resources created by this project:
+ To tear down and delete all the AWS resources created by this project:
 
-```shell
-terraform destroy
+  ```shell
+ terraform destroy.
 
-<font color="red">NOTE</font>
+## NOTE
   Note: Remember to replace "your-bucket-name" and "your-local-directory" with actual values.
   Note: This setup does not include SSL certificates nor CloudFront distribution for HTTPS support. For production websites, you should consider using these services
 
